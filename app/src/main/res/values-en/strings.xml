@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plumel</string>
+    <string name="hint_username">Username</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="hint_password">password</string>
+    <string name="btn_login">login</string>
+    <string name="dont_have_account">¿No tienes cuenta?</string>
+    <string name="hint_email">correo electrónico</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_confirmPassword">Confirmar contraseña</string>
+    <string name="btn_createaccount">Registrarse</string>
+    <string name="toolbar_title_createaccount">Create account</string>
+    <string name="card_string_address">Dirección:</string>
+    <string name="card_service_address">Palomas #1067 Valle de Santo Domingo, San Nicolas.</string>
+    <string name="card_string_serviceComplete">¿Servicio realizado?</string>
+    <string name="search_tab_string">Search</string>
+    <string name="home_tab_string">Home</string>
+    <string name="profile_tab_string">Me</string>
+    <string name="hello_blank_fragment">hello blanck</string>
+    <string name="serviceType">Plomeria</string>
+</resources>

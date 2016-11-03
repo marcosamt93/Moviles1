@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Plumel</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="dont_have_account">¿No tienes cuenta?, </string>
+    <string name="create_here">Registrarse.</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_confirmPassword">Confirmar contraseña</string>
+    <string name="btn_createaccount">Guardar</string>
+    <string name="toolbar_title_createaccount">Crear cuenta</string>
+    <string name="username_card">Marcos Moreno</string>
+    <string name="card_string_address">Dirección:</string>
+    <string name="card_service_address">Palomas #1067 Valle de Santo Domingo, San Nicolas.</string>
+    <string name="card_string_serviceComplete">¿Servicio realizado?</string>
+    <string name="search_tab_string">Buscar</string>
+    <string name="home_tab_string">Inicio</string>
+    <string name="profile_tab_string">Yo</string>
+    <string name="hello_blank_fragment">hello blanck</string>
+    <string name="serviceType">Plomeria</string>
+    <string name="descriptiondetails">Esta es la descripcion del servicio, el calentador se apaga despues de un rato en agua caliente ya no sale. Ddespeus la flama sale muy grande y quema. esta es la descripcion del servicio solo para ver el ejemplo y como se ve en la aplicacion el servicio es de plimeria entonces ocupo un boton para editar este servicio no cres?</string>
+
+</resources>
