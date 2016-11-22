@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.mamt.plumel.view.CreateAccountActivity">
+    tools:context="com.mamt.plumel.view.CreateServiceActivity">
 
     <include layout="@layout/actionbar_toolbar"/>
 
@@ -30,10 +30,11 @@
                 android:layout_marginTop="@dimen/edittext_margin_createaccount">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/email"
+                    android:id="@+id/txt_service_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_email"/>
+                    android:hint="@string/txt_date"
+                    android:inputType="date"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -44,10 +45,54 @@
                 android:layout_marginTop="@dimen/edittext_margin_createaccount">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/name"
+                    android:id="@+id/txt_hour_service"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_name"/>
+                    android:hint="@string/txt_hour"
+                    android:inputType="time"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:id="@+id/radio_service">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ttext_tipoServicio"
+                    android:textSize="@dimen/textsize_donthaveaccount"
+                    android:textColor="@color/editTextColorBlack"/>
+                <RadioButton
+                    android:text="@string/check_tipo_Plomeria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkRol_Cliente"
+                    android:layout_weight="1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:text="@string/check_tipo_electricidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkRol_tecnico"
+                    android:layout_weight="1"
+                    />
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/edittext_margin_createaccount">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/txt_description_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/txt_description"
+                    android:inputType="textMultiLine"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -58,73 +103,27 @@
                 android:layout_marginTop="@dimen/edittext_margin_createaccount">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/user"
+                    android:id="@+id/txt_serviceReferencias"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_user"/>
+                    android:hint="@string/txt_Referencias"
+                    android:inputType="textMultiLine"/>
 
             </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:theme="@style/EditTextBlack"
-                android:layout_marginTop="@dimen/edittext_margin_createaccount">
-
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/password_createaccount"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_password"
-                    android:inputType="textPassword"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/text_tipodeUsuario"
-                android:textSize="@dimen/textsize_donthaveaccount"
-                android:textColor="@color/editTextColorBlack"/>
-                <RadioGroup
-                    android:layout_width="match_parent"
-                    android:layout_height="58dp"
-                    android:id="@+id/radio_grupo">
-
-                    <RadioButton
-                        android:text="@string/check_cliente"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/checkRol_Cliente"
-                        android:layout_weight="1"
-                        android:checked="true"/>
-
-                    <RadioButton
-                        android:text="@string/check_tecnico"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/checkRol_tecnico"
-                        android:layout_weight="1"
-                        />
-                </RadioGroup>
-
-
-
-
 
             <Button
-                android:id="@+id/btn_createAccount"
+                android:id="@+id/btn_createServiceComplete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_createaccount"
+                android:text="@string/btn_create_service"
                 android:theme="@style/RaisedButtonDark"
-                android:padding="@dimen/textsize_donthaveaccount"
-                android:layout_marginTop="@dimen/activity_vertical_margin"/>
+                />
+
+
+
 
         </LinearLayout>
 
-    </ScrollView>
+        </ScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+    </android.support.design.widget.CoordinatorLayout>

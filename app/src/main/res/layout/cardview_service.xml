@@ -16,7 +16,7 @@
             android:id="@+id/pictureCard"
             android:layout_width="match_parent"
             android:layout_height="@dimen/cardview_height"
-            android:background="@drawable/image"
+            android:background="@color/colorPrimary"
             android:scaleType="centerCrop"/>
 
         <LinearLayout
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/card_string_address"
                     android:textColor="@android:color/white"
-                    android:textSize="@dimen/card_tv"/>
+                    android:textSize="@dimen/textsize_username_card"/>
 
                 <TextView
                     android:id="@+id/card_service_address"
@@ -55,7 +55,7 @@
                     android:text="@string/card_service_address"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/card_tv"
-                    android:layout_marginLeft="@dimen/card_marginleft"/>
+                    android:layout_marginLeft="@dimen/textsize_username_card"/>
 
             </LinearLayout>
 
@@ -64,11 +64,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="@dimen/margin_cardtop">
-                <CheckBox
-                    android:id="@+id/check_serviceComplete"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:button="@drawable/checkbox_selector"/>
+
                 <TextView
                     android:id="@+id/card_string_servicecomplete"
                     android:layout_width="wrap_content"

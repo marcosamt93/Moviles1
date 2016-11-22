@@ -25,4 +25,7 @@
     <dimen name="marginleft_usernameToolbarProfile">72dp</dimen>
     <dimen name="margintopToolbar_usernameToolbarProfie">-100dp</dimen>
     <dimen name="limitY_usernameToolbarProfile">-250dp</dimen>
+    <dimen name="width_searchtexr">250dp</dimen>
+    <dimen name="map_height">428dp</dimen>
+    <dimen name="margen_verttical">100dp</dimen>
 </resources>

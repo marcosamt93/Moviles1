@@ -2,7 +2,7 @@
     <string name="app_name">Plumel</string>
     <string name="title_activity_reference">ReferenceActivity</string>
     <string name="hint_username">Nombre de usuario</string>
-    <string name="hint_password">contraseña</string>
+    <string name="hint_password">Contraseña</string>
     <string name="btn_login">Iniciar sesión</string>
     <string name="dont_have_account">¿No tienes cuenta?, </string>
     <string name="create_here">Registrarse.</string>
@@ -22,5 +22,27 @@
     <string name="hello_blank_fragment">hello blanck</string>
     <string name="serviceType">Plomeria</string>
     <string name="descriptiondetails">Esta es la descripcion del servicio, el calentador se apaga despues de un rato en agua caliente ya no sale. Ddespeus la flama sale muy grande y quema. esta es la descripcion del servicio solo para ver el ejemplo y como se ve en la aplicacion el servicio es de plimeria entonces ocupo un boton para editar este servicio no cres?</string>
-
+    <string name="btn_next">Pedir servicio</string>
+    <string name="txt_date">Fecha</string>
+    <string name="txt_hour">Hora</string>
+    <string name="txt_description">Descripción</string>
+    <string name="txt_servicios">Servicios</string>
+    <string name="txt_Referencias">Referencias</string>
+    <string name="btn_create_service">Crear</string>
+    <string name="check_cliente">cliente</string>
+    <string name="check_tecnico">tecnico</string>
+    <string name="check_tipo_Plomeria">plomeria</string>
+    <string name="check_tipo_electricidad">Electrico</string>
+    <string name="ttext_tipoServicio">Tipo de servicio</string>
+    <string name="text_tipodeUsuario">Tipo de usuario</string>
+    <string name="servicio_pendiente">Pendiente</string>
+    <string name="btn_cerrar_sesion">cerrar sesión</string>
+    <string name="btn_guardar_cambios">Guardar</string>
+    <string name="btn_cerrarcaso">Finalizar servicio</string>
+    <string-array name="service_options">
+        <item>Plomería</item>
+        <item>Electricidad</item>
+    </string-array>
+    <string name="facebook_app_id">947362185396041</string>
+    <string name="tomar_foto">Subir imagen</string>
 </resources>

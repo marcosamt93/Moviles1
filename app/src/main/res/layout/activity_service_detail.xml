@@ -114,19 +114,21 @@
                 android:paddingLeft="@dimen/edittext_textsize_login"
                 android:paddingRight="@dimen/edittext_textsize_login"/>
 
+            <Button
+                android:id="@+id/btn_cerrar_caso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cerrarcaso"
+                android:theme="@style/RaisedButtonDark"
+                />
+
         </LinearLayout>
+
+
 
     </android.support.v4.widget.NestedScrollView>
 
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabdetails"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/plus"
-        app:layout_anchor="@+id/appbar"
-        app:layout_anchorGravity="bottom|end"
-        />
+
 
 </android.support.design.widget.CoordinatorLayout>
